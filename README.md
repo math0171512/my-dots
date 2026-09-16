@@ -19,6 +19,9 @@ app launcher
 
 wallpapers
 `awww`
+
+clipboard viewer
+`copyq`
 # Keybinds
 look at `keybinds.lua` in `hypr`
 
