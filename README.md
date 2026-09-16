@@ -22,6 +22,9 @@ wallpapers
 
 clipboard viewer
 `copyq`
+
+code editor
+`helix` (configure in keybinds.lua)
 # Keybinds
 look at `keybinds.lua` in `hypr`
 
