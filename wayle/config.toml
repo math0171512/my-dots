@@ -1,0 +1,30 @@
+# Wayle configuration file
+[bar]
+scale = 0.8
+background-opacity = 0
+
+[[bar.layout]]
+left = ["dashboard","volume","media","clock","separator","systray"]
+center = ["hyprland-workspaces"]
+right = ["network","bluetooth","separator","cpu","ram","microphone","notifications"]
+
+[modules.ram]
+format = "{{used_gib}}gb/{{available_gib}}gb"
+
+[modules.cpu]
+format = "{{ percent }}% {{temp_c}}°"
+
+[modules.hyprland-workspaces]
+min-workspace-count = 10
+app-icons-show = true
+
+[modules.clock]
+format = "%H:%M"
+
+[modules.volume]
+scroll-up = "amixer -D pulse sset Master 5%+; play ~/.config/hypr/sounds/switch.ogg"
+scroll-down = "amixer -D pulse sset Master 5%-; play ~/.config/hypr/sounds/switch.ogg"
+
+[modules.microphone]
+scroll-up = "amixer -D pulse sset Capture 5%+"
+scroll-down = "amixer -D pulse sset Capture 5%-"

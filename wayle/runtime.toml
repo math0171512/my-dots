@@ -1,0 +1,67 @@
+[bar]
+bg = "bg-base"
+button-variant = "basic"
+button-label-weight = "medium"
+button-rounding = "lg"
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "dashboard",
+    "volume",
+    "clock",
+    "media",
+    "separator",
+    "systray",
+    "separator",
+    "keyboard-input",
+]
+center = ["hyprland-workspaces"]
+right = [
+    "cava",
+    "network",
+    "bluetooth",
+    "separator",
+    "cpu",
+    "ram",
+    "microphone",
+    "notifications",
+]
+
+[styling.palette]
+bg = "#01040d"
+surface = "#01040d"
+elevated = "#030303"
+fg = "#FFFFFF"
+fg-muted = "#999999"
+primary = "#FFFFFF"
+red = "#FFFFFF"
+yellow = "#FFFFFF"
+green = "#FFFFFF"
+blue = "#FFFFFF"
+
+[modules.cava]
+bars = 35
+noise-reduction = 0.0
+bar-width = 4
+border-show = true
+
+[modules.dashboard]
+dropdown-lock-command = "hyprlock"
+
+[modules.hyprland-workspaces]
+show-special = false
+app-icons-dedupe = false
+icon-gap = 0.15000000596046448
+
+[modules.keyboard-input.layout-alias-map]
+"English (US)" = "EN"
+German = "DE"
+Ukrainian = "UA"
+
+[modules.systray]
+border-show = true
+
+[wallpaper]
+engine-enabled = false

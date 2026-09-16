@@ -1,0 +1,80 @@
+* {
+  all: unset;
+  font-family: JetBrains Mono NF;
+  color: #ECF2F8;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.window {
+  border-radius: 10px;
+  background-color: #13161e;
+  border: solid 1px #ffffff;
+  margin: 2px;
+}
+
+tabs {
+    padding: 0.5rem 1rem;
+}
+
+tabs > tab {
+    margin-right: 1rem;
+}
+
+.tab-label {
+    color: #525252;
+    transition: all 0.2s ease;
+}
+
+tabs > tab:checked > .tab-label, tabs > tab:active > .tab-label {
+    text-decoration: underline currentColor;
+    color: #ffffff;
+}
+
+tabs > tab:focus > .tab-label {
+    color: #ff11000;
+}
+
+.page {
+    padding: 1rem;
+}
+
+.image-label {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 0.25rem;
+}
+
+flowboxchild > .card, button > .card {
+    transition: all 0.2s ease;
+    border: solid 2px transparent;
+    border-color: #ffffff;
+    border-radius: 5px;
+    background-color: #06070a;
+    padding: 5px;
+}
+
+flowboxchild:active > .card, flowboxchild:selected > .card, button:active > .card, button:selected > .card, button:focus > .card {
+    border: solid 2px #61AFEF;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.region-button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #353535;
+    color: #000000;
+    transition: all 0.2s ease;
+}
+
+.region-button:not(:disabled):hover, .region-button:not(:disabled):focus {
+    background-color: #454545;
+}
+
+.region-button:disabled {
+    background-color: #1c1c1c;
+    color: #21262D;
+}

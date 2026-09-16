@@ -1,0 +1,13 @@
+prompt-text = ">"
+width = 250
+height = 180
+font-size = 12
+border-width = 1
+border-color= #ffffff
+selection-color= #ffffff
+text-color = #8f8f8f
+corner-radius=20
+font=/usr/share/fonts/noto/NotoSansMono-Regular.ttf
+num-results=5
+hint-font=false
+drun-launch=true

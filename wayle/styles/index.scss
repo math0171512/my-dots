@@ -1,0 +1,7 @@
+// Custom Wayle styles. Anything here overrides the built-in styling.
+// Use @import "name" to bring in _name.scss from this folder.
+
+menubutton.bar-button {
+  border: 1px solid var(--palette-primary);
+  border-radius:10px
+}
