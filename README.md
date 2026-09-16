@@ -23,4 +23,4 @@ wallpapers
 look at `keybinds.lua` in `hypr`
 
 # Wallpapers
-put them in `~/Pictures/Wallpapers`, configurable in `hypr/change_wallpaper.sh`
+put the image files for them in `~/Pictures/wallpapers`, configurable in `hypr/change_wallpaper.sh`
